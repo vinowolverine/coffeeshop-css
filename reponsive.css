@@ -144,6 +144,7 @@
     .galleryBody{
         margin: auto ;
         padding: 0 6rem;
+        row-gap: 1rem;
     }
 
     .teamBody{
