@@ -1,0 +1,25 @@
+.galleryContainer{
+
+}
+
+.gallery{
+    display: grid;
+    row-gap: 2rem;
+}
+
+.galleryBody{
+    grid-column-gap: 2rem;
+    row-gap: 3rem;
+}
+
+.galleryCard{
+    
+}
+
+.galleryCardHeader{
+    
+}
+
+.galleryCardHeader img{
+    aspect-ratio: 3/2;
+}

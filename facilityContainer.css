@@ -1,0 +1,27 @@
+.facilityContainer{
+
+}
+
+.facility{
+    display: grid;
+    row-gap: 6rem;
+    
+}
+
+.facilityBody{
+    
+    grid-column-gap: 3rem;
+    
+}
+
+.facilityCardBody{
+    
+}
+
+.facilityCardBody h3{
+    margin-bottom: 1rem;
+}
+
+.facilityCardBody p{
+    margin-bottom: 1rem;
+}

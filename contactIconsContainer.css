@@ -1,0 +1,59 @@
+.contactIconsContainer{
+
+}
+
+.contactIcons{
+  display: grid;
+  row-gap: 2rem;
+}
+
+.iconsBody{
+
+}
+
+.IconsCard{
+
+}
+
+.iconsCardHeader{
+
+}
+
+.iconsCardHeader i{
+  background-color: var(--buttonColor);
+   margin-bottom: 1rem;
+   border: 2rem solid var(--buttonColor);
+   border-radius: 100% ;
+   color: var(--primaryColor);
+   font-size: 1.5rem;
+}
+
+.iconsCardBody{
+
+}
+
+.iconsCardBody h3{
+    margin-bottom: 0.5 rem;
+}
+
+.iconsCardBody p{
+  margin-bottom: 0.5 rem;
+}
+
+.copyrightBody{
+
+}
+
+.copyright{
+
+}
+
+.copyright p{
+  color: var(--ffSecondary);
+}
+
+.copyright p span{
+   color: blue;
+}
+
+

@@ -1,0 +1,57 @@
+.contactContainer{
+
+}
+
+.contact{
+    
+   
+}
+
+.formBody{
+  
+ 
+}
+
+.formBody img{
+
+}
+
+.formBlock{
+
+}
+
+.bookingForm{
+    border: 1px solid var(--secondaryColor);
+    padding: 5rem 7rem;
+}
+
+.bookingForm h3{
+    margin-bottom: 1rem ;
+    font-size: 2rem;
+}
+
+.formGroup{
+    
+}
+
+.formGroup input{
+    margin-bottom: 1rem ;
+    padding: 0 2rem; 
+    font-size: 1.5rem;
+}
+
+.formGroup button{
+    margin-bottom: 1rem;
+    background-color: var(--buttonColor);
+    border: 0; 
+    color: var(--primaryColor);
+    font-size: 1.5rem;
+    padding: 0 2rem;
+}
+
+.formGroup button:hover{
+    background-color: var(--secondaryColor);
+    
+}
+
+
