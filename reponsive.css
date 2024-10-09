@@ -70,7 +70,8 @@
     .ourMenuJumbotron h2{
         
         font-size: 3rem;
-        text-align: justify;
+        text-align: center;
+        display: inline;
         
         
     }
