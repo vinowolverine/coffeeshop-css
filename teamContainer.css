@@ -1,0 +1,33 @@
+.teamContainer{
+
+}
+
+.team{
+    display: grid;
+    row-gap: 2rem;
+}
+
+.teamBody{
+    grid-column-gap: 2rem;
+}
+
+.teamCard{
+    
+}
+
+.teamCardHeader{
+    
+}
+
+.teamCardHeader img{
+    aspect-ratio: 1;
+}
+
+.teamCardBody{
+    
+}
+
+.teamCardBody h3{
+    margin-bottom: 1rem;
+    
+}

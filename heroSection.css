@@ -1,0 +1,52 @@
+/* Hero Section code */
+.heroContainer{
+
+}
+
+.heroSection{
+  background-image: url(./hero.jpg);
+  background-repeat: no-repeat;
+  background-position: center center ;
+  background-size: cover;
+}
+
+.heroBody{
+
+}
+
+
+.heroJumbotron{
+  height: 100%;
+  width: 100%;
+  padding: 250px 500px 250px 10px ;
+}
+
+.heroJumbotron h1{
+  margin-bottom: 1rem;
+  font-family: "Merienda", cursive;
+  font-size: 3.5rem;
+}
+
+.heroJumbotron p{
+   margin-bottom: 1rem;
+}
+
+.heroJumbotron button{
+    margin-bottom: 1rem;
+    background-color: var(--buttonColor);
+    border: 0;
+}
+
+.heroJumbotron button:hover{
+  
+  background-color: var(--secondaryColor);
+  
+}
+
+.heroJumbotron button a{
+    margin: 1rem;
+    text-decoration: none;
+    color: var(--primaryColor);
+    font-size: 1.5rem;
+}
+/* Hero Section code */

@@ -1,0 +1,46 @@
+/* Navbar code */
+.navContainer{
+   
+}
+
+.navBar{
+    /* background-color: aqua; */
+    background-color: var(--primaryColor);
+    padding: 7px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 0;
+}
+
+.navBody{
+    /* background-color: aqua; */  
+}
+
+
+
+.logoImage{
+    width: 20%;
+}
+
+.logoImage img{
+   height: 45px;
+}
+
+.navLinks{
+ 
+}
+
+.navLinks li{
+    list-style: none;
+}
+
+.navLinks li a{
+    text-decoration: none;
+    color: var(--secondaryColor) ;
+    font-size: 2rem;
+    
+}
+/* Navbar code */ 

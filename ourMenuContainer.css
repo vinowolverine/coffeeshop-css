@@ -1,0 +1,56 @@
+.ourMenuContainer{
+
+}
+
+.ourMenu{
+    
+}
+
+.ourMenuBody{
+   
+   
+   
+}
+
+.ourMenuImage{
+    
+}
+
+.ourMenuImage img{
+    
+}
+
+.ourMenuJumbotron{
+    
+}
+
+.ourMenuJumbotron h2{
+    margin-bottom: 1rem;
+    font-family: "Merienda", cursive;
+    font-size: 3.5rem;
+}
+
+.ourMenuJumbotron p{
+    margin-bottom: 1rem;
+    text-align: justify;
+}
+
+.ourMenuJumbotron button{
+    margin-bottom: 1rem;
+    background-color: var(--buttonColor);
+    border: 0;
+    font-size: 1.5rem;
+}
+
+.ourMenuJumbotron button:hover{
+    background-color: var(--secondaryColor);
+    
+}
+
+.ourMenuJumbotron button a{
+    margin: 1rem;
+    text-decoration: none;
+    color: var(--primaryColor);
+}
+
+

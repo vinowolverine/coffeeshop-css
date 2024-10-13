@@ -1,0 +1,274 @@
+/* Default code Starts here */
+
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital@0;1&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-wrap: pretty;
+    /* border: 1px solid red; */
+}
+
+body {
+   background-color: #ffffff;
+    /* font-family: "Merienda", cursive; */
+    font-family: "Nunito", sans-serif;
+   
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased; 
+    font-optical-sizing: auto;
+   
+    
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    width: 1rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h6,
+p {
+    text-wrap: balance;
+    font-size: 1.5 rem;
+}
+
+
+
+
+
+
+
+input,
+textarea,
+button {
+    font-family: inherit;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+:root {
+    --primaryColor: #ffffff;
+    --secondaryColor: #000000;
+    --buttonColor: #be9c79 ;
+    --lightColor: #ff0f00;
+    --regularFont: 1.4rem;
+    --headingFont: 2rem;
+    --ffPrimary: "Nunito", sans-serif;
+    --ffSecondary: "Merienda", cursive;
+}
+
+/* project standard classes Starts */
+
+main{
+
+    padding: 0 5rem;
+
+}
+
+footer{
+    padding: 0 5rem; 
+}
+/* .ourMenuBody, .facilityBody, .popularBody, .galleryBody, .teamBody, .formBody, .iconsBody, .copyrightBody{
+    padding: 0 5rem;
+    } */
+.align {
+    max-width: 1200px;
+    margin: auto ;
+    padding: 0 1rem;
+}
+
+.componentSpacing {
+    padding: 3rem 0;
+}
+
+.grid-1 {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.grid-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.grid-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.grid-4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.dflex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dflex-ard {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.dflex-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.dflex-col-start {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: left;
+}
+
+#menu-btn{
+    display: none;
+    font-size: 2.5rem;
+    color:var(--secondaryColor);
+    cursor: pointer;
+ }
+
+.headingTitle{
+
+    display: grid;
+    row-gap: 1rem;  
+}
+
+.headingTitle h1{
+    font-family: "Merienda", cursive;
+}
+
+.headingTitle h2{
+    font-family: "Merienda", cursive;
+}
+
+/* project standard classes Ends */
+
+/* Default code Ends here */
+
+/* :::PARENT CONTAINER Code Starts here::: */
+
+header {
+    width: 100%;
+    height: auto;
+}
+
+main {
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    width: 100%;
+    height: auto;
+}
+
+/* :::PARENT CONTAINER Code Ends here::: */
+
+/* :::HEADER Code Starts hereE::: */
+/* Navbar code */
+/* Navbar code */
+
+/* Hero Section code */
+/* Hero Section code */
+/* :::HEADER Code Ends here::: */
+
+
+/* :::MAIN Code Starts here::: */
+/* Our Menu code */
+/* Our Menu code */
+
+/* Facility code */
+/* Facility code */
+
+/* Popular code */
+/* Popular code */
+
+/* Gallery code */
+/* Gallery code */
+
+/* Team code */
+/* Team code */
+/* :::MAIN Code Ends here::: */
+
+
+/* :::FOOTER Code Starts here::: */
+/* Contact code */
+/* Contact code */
+
+/* Contact Icons code */
+/* Contact Icons code */
+/* :::FOOTER Code Ends here::: */
+
+
+
+
+
+/* ::::: RESPONSIVE DESIGN DEVICE SIZES ::::: */
+
+/* for Responsive Target the ROW Code (display:grid) */
+
+/* Small devices (landscape phones, upto 576px and below) */
+/*
+@media (width <=576px) {
+  
+}
+*/
+
+/* Medium devices (tablets, upto 768px and above) */
+/*@media (width >=577px) and (width <=768px) {
+.iconsBody {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+}/*
+
+
+/* Large devices (Laptops, upto 992px and above) */
+/*@media (width >=769px) and (width <=992px) {
+    .iconsBody{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}*/
+
+
+/* X-Large devices (large desktops, upto 1200px and above) */
+/*@media (width >=993px) and (width <=1200px) {
+
+}*/
+
+
+/* XX-Large devices (larger desktops, upto 1400px and above) */
+/*@media (width >=1200px) {
+
+}
+
+/*
